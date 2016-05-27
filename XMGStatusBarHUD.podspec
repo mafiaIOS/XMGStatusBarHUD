@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "XMGStatusBarHUD"
   s.version      = "0.0.1"
-  s.summary      = "A short description of XMGStatusBarHUD."
+  s.summary      = "一款简单易用的状态栏指示器小框架"
 
   s.description  = <<-DESC
                    A longer description of XMGStatusBarHUD in Markdown format.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                    * Finally, don't worry about the indent, CocoaPods strips it!
                    DESC
 
-  s.homepage     = "http://EXAMPLE/XMGStatusBarHUD"
+  s.homepage     = "https://github.com/CoderWeiLee/XMGStatusBarHUD"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -53,10 +53,10 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "R了个G" => "R了个狗@gmall.com" }
+  s.author             = { "R了个G" => "3451059659@qq.com" }
   # Or just: s.author    = "R了个G"
-  # s.authors            = { "R了个G" => "R了个狗@gmall.com" }
-  # s.social_media_url   = "http://twitter.com/R了个G"
+  # s.authors            = { "R了个G" => "3451059659@qq.com" }
+  # s.social_media_url   = "http://weibo.com/5388419838/profile?topnav=1&wvr=6&is_all=1"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/XMGStatusBarHUD.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/CoderWeiLee/XMGStatusBarHUD", :tag => "s.version" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "XMGStatusBarHUD/XMGStatusBarHUDExample/XMGStatusBarHUDExample"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
