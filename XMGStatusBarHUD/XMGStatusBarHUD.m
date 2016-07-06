@@ -93,12 +93,14 @@ static CGFloat const XMGStatusBarHUDHeight = 20;
 }
 + (void)hideAnimation
 {
+    NSLog(@"111");
    [UIView animateWithDuration:0.5 delay:2 options:0 animations:^{
        CGRect frame = window_.frame;
        frame.origin.y = -XMGStatusBarHUDHeight;
        window_.frame = frame;
 
    } completion:nil];
+    
 }
 
 @end
